@@ -7,9 +7,9 @@ tags: []
 ---
 {% include JB/setup %}
 
-**image replacement**给web带来更好的可用性，它的实现方式多样。
+`image replacement`给web带来更好的可用性，它的实现方式多样。
 
-*-9999px*因为更强的适用性和更少的冗余标签，较为通用:
+`-9999px`因为更强的适用性和更少的冗余标签，较为通用:
 
     <h1>web title</h1>
 
