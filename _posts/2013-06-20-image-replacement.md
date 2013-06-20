@@ -36,7 +36,7 @@ tags: []
 
 2.Bootstrap的实现：
 
-     `.hide-text {
+    ` .hide-text {
   		font: 0/0 a;
   		color: transparent;
   		text-shadow: none;
