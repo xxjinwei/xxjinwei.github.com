@@ -2,7 +2,7 @@
 layout: post
 title: "image replacement"
 description: ""
-category:"styleSheet" 
+category:styleSheets 
 tags: []
 ---
 {% include JB/setup %}
