@@ -11,7 +11,7 @@ tags: []
 
 *-9999px*因为更强的适用性和更少的冗余标签，较为通用:
 
-    <h1 class="technique-three">web title</h1>
+    <h1>web title</h1>
 
     h1{
   		width: 350px; 
@@ -24,16 +24,17 @@ tags: []
 
 以下是两种替代方案：
 
-1.来自Kellum Method的实现：
+1.Kellum Method的实现：
 
     .hide-text {
 		text-indent: 100%;
 		white-space: nowrap;
 		overflow: hidden;
 	}
+
 参考：[http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/](http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/)
 
-2.Bootstrap中的image replacement实现：
+2.Bootstrap的实现：
 
     .hide-text {
   		font: 0/0 a;
