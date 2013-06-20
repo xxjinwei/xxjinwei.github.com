@@ -36,12 +36,13 @@ tags: []
 
 2.Bootstrap的实现：
 
-    ` .hide-text {
-  		font: 0/0 a;
-  		color: transparent;
-  		text-shadow: none;
-  		background-color: transparent;
-  		border: 0;
-	}`
+`
+ .hide-text {
+  	font: 0/0 a;
+  	color: transparent;
+  	text-shadow: none;
+  	background-color: transparent;
+  	border: 0;
+ }`
 
 解释说明：[https://github.com/h5bp/html5-boilerplate/commit/aa0396eae757](https://github.com/h5bp/html5-boilerplate/commit/aa0396eae757)
