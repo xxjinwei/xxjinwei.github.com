@@ -25,24 +25,22 @@ tags: []
 以下是两种替代方案：
 
 1.Kellum Method的实现：
-
-   ` .hide-text {
+	```.hide-text {
 		text-indent: 100%;
 		white-space: nowrap;
 		overflow: hidden;
-	}`
+	}```
 
 参考：[http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/](http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/)
 
 2.Bootstrap的实现：
 
-`
- .hide-text {
-  	font: 0/0 a;
-  	color: transparent;
-  	text-shadow: none;
-  	background-color: transparent;
-  	border: 0;
- }`
+	```.hide-text {
+  		font: 0/0 a;
+  		color: transparent;
+  		text-shadow: none;
+  		background-color: transparent;
+  		border: 0;
+ 	}```
 
 解释说明：[https://github.com/h5bp/html5-boilerplate/commit/aa0396eae757](https://github.com/h5bp/html5-boilerplate/commit/aa0396eae757)
