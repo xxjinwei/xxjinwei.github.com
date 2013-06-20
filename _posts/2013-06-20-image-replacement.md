@@ -20,7 +20,7 @@ tags: []
   		text-indent: -9999px;
 	}
 
-但是浏览器真进行-9999px的缩进，面对手机这样的小巧设备，不免会担心进行这么大的绘图，会不会带来性能问题！
+但是浏览器进行-9999px的缩进，面对手机这样的小巧设备，不免会担心进行这么大的绘图，会不会带来性能问题！
 
 以下是两种替代方案：
 
@@ -42,4 +42,5 @@ tags: []
   		background-color: transparent;
   		border: 0;
 	}
+
 解释说明：[https://github.com/h5bp/html5-boilerplate/commit/aa0396eae757](https://github.com/h5bp/html5-boilerplate/commit/aa0396eae757)
