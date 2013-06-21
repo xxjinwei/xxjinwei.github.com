@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 
-tagline: A Front-End Web Developer's Blog
+tagline: 
 ---
 {% include JB/setup %}
 
