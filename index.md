@@ -8,6 +8,8 @@ tagline: A Front-End Web Developer
 
 ##Welcome
 
+----------
+
 ![hi](http://farm8.staticflickr.com/7387/9096839559_0aba7db84d.jpg)
 
 [之前的博客](http://hi.baidu.com/814100332)已停止更新，百度的审查很无奈，伤及无辜！
@@ -15,6 +17,8 @@ tagline: A Front-End Web Developer
 
 
 ##Recent posts
+
+----------
 
 <ul class="posts">
   {% for post in site.posts %}
@@ -24,6 +28,8 @@ tagline: A Front-End Web Developer
 
  
 ##About
+
+----------
 
 Email:[tangguohe@outlook.com](mailto:tangguohe@outlook.com "email")
 
