@@ -30,7 +30,8 @@ tagline:
 
 <object width="480" height="334">
 <param name="movie" value="http://player.yinyuetai.com/video/player/1157/v_0.swf" />
-<embed src="http://player.yinyuetai.com/video/player/1157/v_0.swf" width="480" height="334"></embed>
+<param name="autoPlay" value="true" />
+<embed src="http://player.yinyuetai.com/video/player/1157/v_0.swf" width="480" height="334" autoPlay="true"></embed>
 </object>
 
 
