@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "python scope"
-<<<<<<< HEAD
 description: ""
 category: python
 tags: ["python"]
@@ -15,7 +14,8 @@ tags: ["python"]
 
 ```
 ###局部访问全局变量，使用`global`###
-=======
+
+
 description: "python scope"
 category: python
 tags: [python]
@@ -106,4 +106,3 @@ python中默认，在局部出现的变量则为局部变量
 
 对于`class`、`继承`相关的作用域，这里不讨论
 
->>>>>>> 25c1c82171d224dc169f6c1590e3ed3b8a7d9313
