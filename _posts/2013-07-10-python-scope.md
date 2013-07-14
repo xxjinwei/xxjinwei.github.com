@@ -7,26 +7,12 @@ tags: ["python"]
 ---
 {% include JB/setup %}
 
-
-###没有块作用域###
-```python
-
-
-```
-###局部访问全局变量，使用`global`###
-
-
-description: "python scope"
-category: python
-tags: [python]
----
-{% include JB/setup %}
-
 这个系列的文章是我个人的学习笔记
 
 由于对JS比较熟悉，所以学习python也会明显有JS的思路和套路
 
 ###没有预定义
+
 
 即变量必须先声明，再操作
 
@@ -39,7 +25,9 @@ tags: [python]
 
 好吧！我很喜欢JS的预定义
 
+
 ###没有块作用域
+
 
 	arr=[11,22,33,44]
 	for v in arr:
@@ -61,6 +49,7 @@ for...in， while， if的代码块中，不会产生新的作用域，这一点
 
 局部未出现过的变量，则默认为是全局变量
 
+
 2.外部不能访问局部变量
 
 	def fun():
@@ -71,12 +60,14 @@ for...in， while， if的代码块中，不会产生新的作用域，这一点
 
 3.若在局部直接操作全局变量，则非法
 
+
 	num=1
 	def fun():
 		num++   #this throw an error，未定义
 		return num 
 
 python中默认，在局部出现的变量则为局部变量
+
 
 4.若在局部操作全局变量，需使用`global`关键字
 
