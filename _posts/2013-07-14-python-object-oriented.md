@@ -18,11 +18,11 @@ tags: []
 			self.name = name
 
 		def say(self):								                print self.pid ,":" ,self.name
-	
 	p1=person("xx1")
 	p2=person('xx2')
-											p1.say()
-											p2.say()
+	
+	p1.say()
+	p2.say()
 
 `pid`是属性
 
