@@ -17,7 +17,9 @@ tags: []
 			self.pid += 1
 			self.name = name
 
-		def say(self):								                print self.pid ,":" ,self.name
+		def say(self):
+			print self.pid ,":" ,self.name
+
 	p1=person("xx1")
 	p2=person('xx2')
 	
