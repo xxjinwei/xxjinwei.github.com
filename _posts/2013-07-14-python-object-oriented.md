@@ -33,7 +33,10 @@ tags: []
 `__init__`是类的构造函数
 
 
-###静态方法###
+###静态成员###
+
+1.静态方法
+
 
 python中静态方法，使用`@staticmethod`装饰符
 
@@ -49,7 +52,9 @@ python中静态方法，使用`@staticmethod`装饰符
 	person.say(p1)
 	person.say(p2)
 
-###静态属性###
+
+2.静态属性
+
 
 python中的静态属性，比较奇怪
 
@@ -72,5 +77,26 @@ python中的静态属性，比较奇怪
 当类实例化后，无论修改类的属性，还是实例的属性，二者将不再互相影响
 
 
+
+###私有成员###
+
+python没有像C#那样的public,private等访问控制符，所有的成员默认都是public
+
+但是通过在成员变量的名称前加上`__`,则此成员就成为私有成员
+
+	class person:
+
+		__pid=1
+
+		def __func(self):
+			pass
+
+	p=person()
+
+	p.__pid #raise error:has no attribute
+
+	person.__pid #raise error:has no attribute
+
+如上例，无论是通过类本身，还是实例均无法访问`__pid`
 
 
