@@ -1,102 +1,51 @@
 ---
 layout: post
-title: "python Object-Oriented"
-description: "python object-oriented"
-category: python
+title: "css-snippets:inline-block"
+description: "inline-block"
+category: css-snippets
 tags: []
 ---
 {% include JB/setup %}
 
 
-###基本写法###
-	class person:
+###.inline-block###
 
-	        pid=0 
+	.inline-block{
+		display:inline-block;
+		vertical-align:top;
+		
+		/*IE hack*/
+		*display:inline;
+		zoom:1
+	}
 
-		def __init__(self,name):
-			self.pid += 1
-			self.name = name
+###要解决的问题###
 
-		def say(self):
-			print self.pid ,":" ,self.name
+1.IE6,IE7不支持`display:inline-block`(确切的说应该是支持与主流不一致，参考[淘宝ued的文章](http://ued.taobao.com/blog/2012/08/inline-block/)）(低版本的firefox等不兼容这里不讨论)
 
-	p1=person("xx1")
-	p2=person('xx2')
+
+2.元素添加`display:inline-blcok|inline`，则`vertial-align`默认为`baseline`,而实际中我们需要更多的是`vertical-align:top`
+
+###空白间隙问题###
+
+`inline-block`元素后的换行符，制表符，空格等空白字符（whitespace），在`font-size`作用下产生间隙，方案：
+
+1.手工删掉空格，换行符等
+
+```<ul><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li></ul>```
+
+2.通过font-size，letter-spacing， wordspacing等
+
+直接看[一丝的原文](http://ued.taobao.com/blog/2012/08/inline-block/)吧，很详细很严谨。
+
+
 	
-	p1.say()
-	p2.say()
-
-`pid`是属性
-
-`__init__`,`say`是方法，方法的第一个参数是必须的(可以用其他代替`self`)，用来指向实例对象
-
-`__init__`是类的构造函数
-
-
-###静态成员###
-
-1.静态方法
-
-
-python中静态方法，使用`@staticmethod`装饰符
-
-	@staticmethod
-	def say():
-		pass
-
-上面的例子可以改成这样：
-
-	p1=person("xx1")
-	p2=person('xx2')
-	    
-	person.say(p1)
-	person.say(p2)
-
-
-2.静态属性
-
-
-python中的静态属性，比较奇怪
-
-	class person:
-		pid=1
-
-`pid`可以直接当作`person`类的静态属性，而实例化后又成为实例属性
-
-	p1=person("p1")
-	person.pid=100
-	p2=person("p2")
-
-	print p1.pid  #1
-	print person.pid #100
-	print p2.pid  #101
-
-	p1.pid=2
-	print person.pid #100
-
-当类实例化后，无论修改类的属性，还是实例的属性，二者将不再互相影响
 
 
 
-###私有成员###
 
-python没有像C#那样的public,private等访问控制符，所有的成员默认都是public
 
-但是通过在成员变量的名称前加上`__`,则此成员就成为私有成员
 
-	class person:
 
-		__pid=1
-
-		def __func(self):
-			pass
-
-	p=person()
-
-	p.__pid #raise error:has no attribute
-
-	person.__pid #raise error:has no attribute
-
-如上例，无论是通过类本身，还是实例均无法访问`__pid`
 
 
