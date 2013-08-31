@@ -25,14 +25,10 @@ tagline:
 
 [之前的博客](http://hi.baidu.com/814100332)已停止更新，百度的审查很无奈，伤及无辜！
 
-##给我一首歌的时间
 
 
-<object width="480" height="334">
-<param name="movie" value="http://player.yinyuetai.com/video/player/1157/v_0.swf" />
-<param name="autoPlay" value="true" />
-<embed src="http://player.yinyuetai.com/video/player/1157/v_0.swf" width="480" height="334" autoPlay="true"></embed>
-</object>
+
+
 
 
  
