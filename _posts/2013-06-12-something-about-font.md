@@ -10,7 +10,7 @@ tags: []
 
 ###font-size:100%###
 
-多数的reset.css在都会设置`font-size:100%`,作用是取消浏览器对`H3`，`sup`这样的元素的默认字体大小设置
+多数的reset.css在都会设置`font-size:100%`，作用是取消浏览器对`H3`，`sup`这样的元素的默认字体大小设置
 
 
 ###font-size:62.5%###
