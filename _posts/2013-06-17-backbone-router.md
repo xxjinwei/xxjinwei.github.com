@@ -37,7 +37,7 @@ tags: [Backbone]
  Backbone.Router通过监听`popstate`或`hashchange`事件进行page路由，action分发等，通过使用`Backbone.Router`可以轻松实现url的书签化
  
  
- 默认情况下，通过监听`hashchange`事件进行路由,若希望使用HTML5 history API，可以在`Backbone.history`初始化时进行设置：	
+ 默认情况下，通过监听`hashchange`事件进行路由。若希望使用HTML5 history API，可以在`Backbone.history`初始化时进行设置：	
  
 	Backbone.history.start({"pushState":true});
  
