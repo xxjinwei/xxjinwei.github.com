@@ -54,6 +54,9 @@ tags: [Backbone]
 	
 对于连`hashchange`都不支持的浏览器，Backbone通过`setInterval`进行定时检测变化,模拟`hashchange`,并且使用iframe生成histroy
 
+###参考资料###
+1.[Backbone官方文档](http://backbonejs.org/#Router)
+
 
 
 
