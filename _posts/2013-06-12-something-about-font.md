@@ -10,15 +10,15 @@ tags: []
 
 ###font-size:100%###
 
-多数的reset.css在都会设置`font-size:100%`，作用是取消浏览器对`H3`，`sup`这样的元素的默认字体大小设置
-
+多数的reset.css在都会设置`font-size:100%`，作用是取消浏览器对`H3`，`sup`这样的元素的默认字体大小设置,同时避免ie6-7下font-size使用em[带来的问题
+](http://css-discuss.incutio.com/wiki/Internet_Explorer_Win_Bugs#IE_Font_Sizing_Bugs)
 
 ###font-size:62.5%###
 绝大多数浏览器的默认字体大小为16px，则：
 
 	16 * 62.5% = 10;
 	
-这样就方便了我们使用`em`，百分比设置相对字体大小
+这样就方便了我们使用`em`，百分比设置相对字体大小,
 
 	font-size:1.2em;  //12px
 	
