@@ -34,7 +34,7 @@ tags: []
     	font-size: 100%; 
     	margin: 0; 
 	}
-这么写的原因是：
+这么*显式声明*的原因是：
 **表单元素的`font-family`，`font-size`等font属性，不能从父级元素继承**
 
 ###参考资料###
