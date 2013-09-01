@@ -36,6 +36,11 @@ tags: []
 	}
 这么写的原因是：
 **表单元素的`font-family`，`font-size`等font属性，不能从父级元素继承**
+
+###参考资料###
+1.[Normalize.css](http://necolas.github.io/normalize.css/)
+
+2.[Killer Collection of CSS Resets](http://perishablepress.com/a-killer-collection-of-global-css-reset-styles/)
 	
 
 
