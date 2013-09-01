@@ -25,11 +25,11 @@ tags: [Backbone]
 	//add rule
 	r.route("login",function(){});
 	
-	//start it
+	//start router
 	Backbone.history.start();
 	
 	//navigate
-	r.naviage("v",{"trigger":true});
+	r.navigate("v",{"trigger":true});
 	
 
 ###pushstate && hashchange###
