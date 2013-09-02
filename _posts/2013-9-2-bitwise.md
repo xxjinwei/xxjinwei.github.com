@@ -17,4 +17,5 @@ tags: [bitwise]
 *这里只写结论，不普及基础*
 
 
-https://gist.github.com/xxjinwei/6408839
+<script type="text/javascript" src="https://gist.github.com/xxjinwei/6408839"></script>
+
