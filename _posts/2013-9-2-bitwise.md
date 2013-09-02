@@ -2,4 +2,6 @@
 
 于是，整理出一些常见又简单的javascript位运算例子
 
-*这里*
+*这里只写结论，不普及基础*
+
+https://gist.github.com/xxjinwei/6408839
