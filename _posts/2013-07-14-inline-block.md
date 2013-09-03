@@ -53,6 +53,8 @@ tags: []
 
 3.[What’s the Deal With Display: Inline-Block?](http://designshack.net/articles/css/whats-the-deal-with-display-inline-block/)
 
+4.[Fighting the Space Between Inline Block Elements](http://css-tricks.com/fighting-the-space-between-inline-block-elements/)
+
 
 	
 
