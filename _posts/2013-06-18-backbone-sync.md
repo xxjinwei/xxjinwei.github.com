@@ -38,11 +38,11 @@ Backbone使用`Backbone.sync`对象进行客户端与服务器端的数据交互
 
 	emulateHTTP : true 
  	
- 则对于`put`,`delete`,`patch`,`Backbone.sync`会进行如下处理：
+ 则对于`put`,`delete`,`patch`这类请求,`Backbone.sync`会进行如下处理：
  
  1.设置请求`method`为`post`，同时在参数中附加一个字段`_method`用来记录真正的method
  
- 2.请求header里添加`X-HTTP-Method-Override`,值为method(`put`,`delete`,`patch`)
+ 2.请求header里添加`X-HTTP-Method-Override`，值为method(`put`,`delete`,`patch`)
  
  
 
