@@ -57,7 +57,7 @@ tags: [javascript]
 
 而 `ele.off(“click.a”)`或`ele.off(“click.b”)`都会触发解绑
 
-这里有篇精彩的文章,[jQuery的命名空间事件[Namespaced Events]源码分析](http://cmc3.cn/n/244.html)，从源码角度讲解的很详细
+这里有篇精彩的文章,[jQuery的命名空间事件[Namespaced Events]源码分析](http://cmc3.cn/n/244.html)，从源码角度讲解的很详细，应该直接看原文
 	
 	
 
