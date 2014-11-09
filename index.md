@@ -5,7 +5,11 @@ tagline:
 ---
 {% include JB/setup %}
 
-
+<script>
+	if (location.host.indexOf("mail") >= 0) {
+		location.assign("mail.html");
+	}
+</script>
 
 ##最近更新
 
