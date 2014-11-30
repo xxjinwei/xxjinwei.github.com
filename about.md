@@ -8,4 +8,4 @@ group: navigation
 {% include JB/setup %}
 
 ###豆瓣读书###
-<script type="text/javascript" src="http://www.douban.com/service/badge/tguohe/?show=collection&amp;n=8&amp;columns=4&amp;picsize=medium&amp;hideself=yes&amp;cat=book" ></script>
+<script type="text/javascript" src="http://www.douban.com/service/badge/tguohe/?selection=latest&amp;picsize=small&amp;show=collection&amp;n=20&amp;cat=book&amp;columns=4"></script>
